@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 150%;
+    background: #f4f4f4;
+}
+
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-align: center;
+    color: #f4f4f4;
+    background: 200px 30px;
+    background-color: #778899;
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+h3 {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+div{
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+ul{
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+a {
+    color: #d21304
+}
+
+.container {
+    width: 1024px;
+    margin: 0% auto; 
+}
+
+#bioImage,
+#contactInfo,
+#mainBio {
+    float: left;
+}
+
+#mainBio
+{
+    width: 70%;
+    padding: 0px;
+    
+}
+
+#contactInfo
+{
+    width: 30%;
+    float: right;
+   
+}
+
+#bioImage
+{
+    padding-right: 16px;
+    width: 200px;
+    height: 200px;
+}

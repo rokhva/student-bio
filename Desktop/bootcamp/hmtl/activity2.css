@@ -1,0 +1,53 @@
+h1 {
+    text-align: center
+}
+
+#red {
+    color:red
+}
+
+#blue {
+    color: rgb(17, 60, 189)
+}
+
+#green {
+    color:green
+}
+
+#bigfont {
+    font-size: 64pt
+}
+
+#tinyfont {
+    font-size: 8pt
+}
+
+#center {
+    text-align: center
+}
+
+#bold {
+    font-weight: bold
+}
+
+#newfam {font-family: 
+    Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+#multiple {
+    font-size: 32pt
+    ;color: orange
+    ;font-weight:bold
+}
+
+ .styledFont {
+     font-size: 18pt; 
+     color:green
+    }
+
+#styledImage {
+    outline-style: solid;
+    outline-color: orange;
+    outline-width: 5pt;
+    outline-offset: 1pt
+}
