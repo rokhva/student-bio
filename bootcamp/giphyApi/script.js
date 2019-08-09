@@ -50,7 +50,7 @@ $(document).on("click", ".options",function(){
         //   var still = response.data[0].images.fixed_width_still;
 
           console.log(response.data[0].images.fixed_width_still.url);
-          var stillUrl = response.data[0].images.fixed_width_still.url;
+        //   var stillUrl = response.data[0].images.fixed_width_still.url;
 
         //   console.log(response.data[0].images.fixed_width);
         //   var moving = response.data[0].images.fixed_width;
@@ -58,11 +58,18 @@ $(document).on("click", ".options",function(){
           console.log(response.data[0].images.fixed_width.url);
           var movingUrl = response.data[0].images.fixed_width.url;
 
-          var newGiph = $("<img>").attr("src", stillUrl);
+        //   var newGiph = $("<img>").attr("src", stillUrl);
         //   newGiph.append(stillUrl);
 
+        //   $("#giphyContainer").append(newGiph);
+
+          console.log(response.data);
+
+          for(var j = 0; j < response.data.length; j++){
+          var stillUrl = response.data[j].images.fixed_width_still.url;
+          var newGiph = $("<img>").attr("src", stillUrl);
           $("#giphyContainer").append(newGiph);
-          
+          }
       })
 })
 
