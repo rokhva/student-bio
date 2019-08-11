@@ -21,10 +21,8 @@ function createButtons() {
     $("#giphyButtons").empty();
     for (var i = 0; i < charArray.length; i++) {
         var newButton = $("<button>" + charArray[i] + "</button>");
-        //var newButton = $("<button>").text(charArray[i]);
-        //newButton.append("#giphyButtons");
-
         newButton.addClass("options");
+        newButton.addClass("btn btn-outline-secondary");
         newButton.attr("data-name", charArray[i])
 
         $("#giphyButtons").append(newButton);
@@ -48,21 +46,9 @@ $(document).on("click", ".options", function () {
 
         console.log(response);
 
-        //   console.log(response.data[0].images.fixed_width_still);
-        //   var still = response.data[0].images.fixed_width_still;
-
         console.log(response.data[0].images.fixed_width_still.url);
-        //   var stillUrl = response.data[0].images.fixed_width_still.url;
-
-        //   console.log(response.data[0].images.fixed_width);
-        //   var moving = response.data[0].images.fixed_width;
 
         console.log(response.data[0].images.fixed_width.url);
-
-        //   var newGiph = $("<img>").attr("src", stillUrl);
-        //   newGiph.append(stillUrl);
-
-        //   $("#giphyContainer").append(newGiph);
 
         console.log(response.data);
         for (var j = 0; j < response.data.length; j++) {

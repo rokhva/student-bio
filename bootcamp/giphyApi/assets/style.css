@@ -1,0 +1,35 @@
+.flex{
+    border: 2px black solid;
+}
+
+#addButton{
+    /* border: 2px black solid; */
+}
+
+.giphyContainer{
+    border: 2px black solid;
+}
+
+#giphyButtons{
+    /* border: 2px black solid; */
+}
+
+h3{
+    text-align: center;
+    /* padding-top: 54px;
+    padding-bottom: 32px; */
+}
+
+p{
+    text-align: center;
+}
+
+#textFeild{
+    width: 400px;
+    height: 38px;
+    border: 2px solid black;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

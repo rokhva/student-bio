@@ -12,21 +12,30 @@
 
     <!-- jQuery link -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- boostrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 </head>
 
 <body>
-
-    <h3>Welcome to GIPHY</h3>
+    <div class="jumbotron jumbotron-fluid m-0 pt-5 pb-4">
+        <h3>Welcome to GIPHY</h3>
+        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    </div>
 
     <div class="flex">
+
+        <div id="addButton">
+            <input id="textFeild">
+            <button id="add" class="btn btn-secondary">add</button>
+        </div>
+
 
         <div id="giphyButtons">
         </div>
 
-        <div id="addButton">
-            <input id="textFeild">
-            <button id="add">add</button>
-        </div>
 
         <div id="giphyContainer">
         </div>
