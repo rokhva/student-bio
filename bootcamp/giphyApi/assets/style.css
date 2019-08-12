@@ -38,14 +38,19 @@ p{
 }
 
 #textFeild{
-    width: 400px;
+    width: 300px;
     height: 38px;
     border: 2px solid #93a5cf;
-    padding-top: 1px;
-    padding-bottom: 5px;
+    /* padding-top: 1px;
+    padding-bottom: 5px; */
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 4px;
+}
+
+input{
+    padding-left: 8px;
+    outline-color: #88d3ce;
 }
 
 .jumbotron {
